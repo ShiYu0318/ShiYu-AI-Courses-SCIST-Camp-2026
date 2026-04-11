@@ -15,6 +15,19 @@
 > Day3 (2026/02/07) - 2.5 hr
 此堂課程將聚焦於「RAG 檢索增強生成」，讓大型語言模型具備查資料能力，透過介紹 Embedding 的核心概念，建立可被語言模型即時查詢的知識庫，學員將學習如何設計檢索流程，並將取回的文件內容動態組裝成結構化 Prompt，有效降低模型幻覺並提升回覆準確性，建構出一個結合本地 LLM、向量資料庫與知識檢索機制的進階生成式 AI 應用，具備實際落地於客服、文件問答與內部知識系統的能力。
 
+## 技術
+
+| Layer         | Tech Stack                                 |
+|--------------|---------------------------------------------|
+| LLM（雲端）  | OpenRouter API（openai SDK）               |
+| LLM（本地）  | Ollama + llama3.2:3b                       |
+| Embedding    | google/embeddinggemma-300m（HuggingFace）  |
+| 向量資料庫   | FAISS                                      |
+| 文件處理     | LangChain text splitters + loaders         |
+| Bot 框架     | py-cord（Discord）                         |
+| 環境管理     | uv + python-dotenv                         |
+
+
 ## 專案結構
 
 ```
