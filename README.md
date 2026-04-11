@@ -1,7 +1,9 @@
 # SCIST x SCAICT Camp 2026 聯合寒訓 - AI 系列課程
 
-- [授課簡報](https://slides.com/shiyu/ai/)
-- [學員共筆](https://hackmd.io/@SCIST/2026_camp_all_note/)
+## - [授課簡報](https://slides.com/shiyu/ai/)
+> [學員共筆](https://hackmd.io/@SCIST/2026_camp_all_note/)
+
+## 課程內容
 
 ### I. AI 理論全攻略（ML/DL/RL）
 > Day1 (2026/02/05) - 3 hr
